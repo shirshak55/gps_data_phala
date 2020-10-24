@@ -1,0 +1,10 @@
+{
+  "name": "phala-substrate-scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {
+    "@polkadot/api": "^2.0.1"
+  }
+}

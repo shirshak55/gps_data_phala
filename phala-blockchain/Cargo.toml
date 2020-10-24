@@ -1,0 +1,23 @@
+[workspace]
+
+exclude = [
+	"substrate",
+	"subxt",
+	"webpki",
+	"ring",
+	"native-nostd-hasher",
+	"serde_no_std",
+	"serde_derive_no_std",
+	"serde_json_no_std",
+	"pruntime",
+]
+
+members = [
+	"executor",
+    "node",
+	"pallets/phala",
+	"phost",
+	"runtime",
+	"rpc",
+	"scripts/toml-upgrade-version"
+]
